@@ -37,3 +37,9 @@
 .header-links ul li a:hover{
   color: #fffc3c;
 }
+
+/* CartWidget / cart icon NavBar */
+.fa-shopping-cart{
+  font-size: 25px;
+
+}
