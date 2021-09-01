@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import CartWidget from "./CartWidget";
 
-const NavBar = () => {
+const NavBar = ({items}) => {
   return (
     <>
       <header className="header">
@@ -22,10 +22,10 @@ const NavBar = () => {
           </ul>
           <ul>
             <li>
-              <Link to="/">Signup</Link>
+              <Link to="/signup">Signup</Link>
             </li>
           </ul>
-          <CartWidget />
+          <CartWidget items={items} />
         </div>
       </header>
     </>
